@@ -33,7 +33,7 @@ The project demonstrates how Weka can be used for **data preprocessing, classifi
 |------|-------------|
 | `README.me` | Original one-line note: *“fertility dataset datamining using Weka software”*[reference:3]. |
 | `dataset.csv` | The Fertility dataset in CSV format (100 instances, 10 attributes including the target). |
-| `report.docx` | A written report documenting the data mining process and findings (likely created in Microsoft Word). |
+| `report.docx` | A written report documenting the data mining process and findings. |
 
 > **Suggestion:** Rename `README.me` to `README.md` so GitHub renders it as the project’s main documentation page.
 
@@ -78,17 +78,3 @@ You can reproduce or extend it by opening `dataset.csv` in the **Weka Explorer**
 
 6. **Visualize**
    - Use the `Visualize` tab to plot feature distributions and class separation.
-
-The `report.docx` should contain the actual configurations, results, and interpretations from the original analysis.
-
----
-
-## 🚀 How to Reproduce
-
-1. **Install Weka**  
-   Download the latest stable version from [waikato.ac.nz/ml/weka](https://www.cs.waikato.ac.nz/ml/weka/).
-
-2. **Clone the repository**  
-   ```bash
-   git clone https://github.com/alisepehrnia/FertilityDataMining.git
-   cd FertilityDataMining
